@@ -77,3 +77,9 @@ jobs:
 ![xxx](./images/2.png)
 
 OK, 搞定收工。 现在可以在 https://username.github.io/ 访问到你的页面了, 注意 username 为你自己的用户名
+
+```tsx
+import React from 'react';
+import Talk from './talk.tsx';
+export default () => <>{Talk('home')}</>;
+```

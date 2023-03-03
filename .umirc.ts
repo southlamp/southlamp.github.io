@@ -9,4 +9,5 @@ export default defineConfig({
   // more config: https://d.umijs.org/config
   // base: '/southlamp.github.io',
   // publicPath: '/southlamp.github.io/',
+  styles: [`.gt-copyright { display: none; }`],
 });

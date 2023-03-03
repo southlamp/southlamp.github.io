@@ -615,3 +615,9 @@ console.log(RegExp.$4); // 3
 学完这三章，可以做些案列来做自己的成果进行些检验
 
 纸上得来终觉浅，绝知此事要躬行。
+
+```tsx
+import React from 'react';
+import Talk from '../../talk.tsx';
+export default () => <>{Talk('regexp')}</>;
+```
