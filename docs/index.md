@@ -1,7 +1,6 @@
 ---
-nav:
-  title: Github Pages
-  order: 1
+title: Github Pages
+order: 1
 ---
 
 # GitHub Pages 搭建

@@ -4,8 +4,7 @@ title: JS正则表达式
 group:
   path: /berantakan
   title: 杂谈
-nav:
-  title: 杂谈
+  order: 3
 ---
 
 # JS 正则表达式
