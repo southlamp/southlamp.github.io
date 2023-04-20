@@ -402,3 +402,9 @@ type params = Parameters<typeof foo>;
 // 相同于
 type params = [p1: string, p2: number];
 ```
+
+```tsx
+import React from 'react';
+import Talk from '../../talk.tsx';
+export default () => <>{Talk('typescript')}</>;
+```

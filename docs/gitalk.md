@@ -51,7 +51,6 @@ import GitalkComponent from 'gitalk/dist/gitalk-component';
 <GitalkComponent
   options={{
     clientID: '...',
-    // ...
     // options below
   }}
 />;
@@ -189,5 +188,5 @@ OK, 刷新一下，成功！
 ```tsx
 import React from 'react';
 import Talk from './talk.tsx';
-export default () => <>{Talk('')}</>;
+export default () => <>{Talk('talk')}</>;
 ```

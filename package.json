@@ -4,7 +4,7 @@
   "name": "dumi-app",
   "scripts": {
     "start": "dumi dev",
-    "build": "dumi build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && dumi build",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
   },
   "main": "dist/index.js",
