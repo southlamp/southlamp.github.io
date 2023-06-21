@@ -23,7 +23,7 @@ interface Person {
   name: string;
 }
 
-type PersonKeys = typeof Person; // "age" | "name"
+type PersonKeys = keyof Person; // "age" | "name"
 ```
 
 ### 2. typeof
