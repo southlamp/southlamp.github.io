@@ -1,3 +1,12 @@
+---
+order: 1
+title: 从零开发 npm 包及对应文档
+group:
+  path: /berantakan
+  title: 杂谈
+  order: 3
+---
+
 # 从零开发 npm 包及对应文档
 
 ### 分步
@@ -112,7 +121,7 @@ jobs:
 
 然后使用 npm 的话可以通过 `npm install xxx` 进行使用
 
-> 不积跬步，无以至千里。 不积小流，无以成江河。
+<font color="#dddd00">不积跬步，无以至千里。 不积小流，无以成江河。</font>
 
 ```tsx
 import React from 'react';

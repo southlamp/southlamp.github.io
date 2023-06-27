@@ -1,10 +1,10 @@
 ---
-order: 1
+order: 2
 title: 手写 promise基本逻辑
 group:
   path: /berantakan
   title: 杂谈
-  order: 4
+  order: 3
 ---
 
 # JS 手写 promise 基本逻辑
@@ -241,7 +241,7 @@ class Promise {
 }
 ```
 
-你只看到了别人表面的轻松, 殊不知别人背后可能更加的轻松, 不可否认总是有那么一部分天才的存在。
+<font color="#dddd00">你只看到了别人表面的轻松, 殊不知别人背后可能更加的轻松, 不可否认总是有那么一部分天才的存在。</font>
 
 <!-- git talk -->
 
@@ -250,3 +250,5 @@ import React from 'react';
 import Talk from '../../talk.tsx';
 export default () => <>{Talk('promise')}</>;
 ```
+
+<!-- 失败并不可怕，真正可怕的是从不去尝试。 -->

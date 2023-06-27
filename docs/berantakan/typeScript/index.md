@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 4
 title: TS关键字和工具类型
 group:
   path: /berantakan

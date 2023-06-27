@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 3
 title: JS正则表达式
 group:
   path: /berantakan
@@ -613,7 +613,7 @@ console.log(RegExp.$4); // 3
 
 学完这三章，可以做些案列来做自己的成果进行些检验
 
-纸上得来终觉浅，绝知此事要躬行。
+<font color="#dddd00">纸上得来终觉浅，绝知此事要躬行。</font>
 
 ```tsx
 import React from 'react';
