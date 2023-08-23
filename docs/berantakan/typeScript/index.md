@@ -336,7 +336,7 @@ type Exclude<T, U> = T extends U ? T : never;
 #### 7.2 作用
 
 `Extract<Type, Union>`
-作用：提取 Type 中所有能够赋值给 Union 的属性，将这些属性构成一个新的类型
+作用：提取 Type 中所有能够赋值给 Union 的属性，将这些属性构成一个新的类型, 理解为取交集
 
 #### 7.3 实例
 
@@ -361,7 +361,7 @@ type Exclude<T, U> = T extends U ? never : T;
 
 `Exclude<UnionType, ExcludedMembers>`
 
-作用：从 UnionType 中去掉所有能够赋值给 ExcludedMembers 的属性，然后剩下的属性构成一个新的类型
+作用：从 UnionType 中去掉所有能够赋值给 ExcludedMembers 的属性，然后剩下的属性构成一个新的类型, 理解为从前一个类型中去除交集部分
 
 #### 8.3 实例
 
