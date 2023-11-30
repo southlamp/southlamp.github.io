@@ -4,7 +4,7 @@ title: JSON.stringfy
 group:
   path: /berantakan
   title: 杂谈
-  order: 4
+  order: 3
 ---
 
 # JSON.stringfy 的三个参数
