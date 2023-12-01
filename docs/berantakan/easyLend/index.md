@@ -27,7 +27,7 @@ group:
 
 uniapp + vue3.x + 腾讯云 Webify + 在线客服
 
-Nodejs + Koa + 腾讯云 cloudBase(云函数 + 云数据库) + 短信
+Nodejs + Koa + 腾讯云 cloudBase(云函数 + 云数据库) + 短信 + 短链接
 
 npm 包：因项目依赖需要，又单独开发了两个 npm 包 @southlamp/\* , 包名就不说了, 咱不打广告。哈哈，还特意给 npm 包加了一个 scope
 
@@ -109,6 +109,8 @@ Nodejs + Koa + 其他
 8. koa-session， 在开发图片验证码的时候将验证码信息直接传到前端浏览器中，用来后续比较判断
 9. serverless-http， 用来将 nodejs 格式代码转化为云函数所需的 main 主入口
 10. svg-captcha， 生成图形验证码
+11. qrcode, 用来生成二维码, 因为需要营销，那当然是需要知道是谁的客户吧，不然提成没了?? 钱都被老板拿走了???
+12. 短链接, 因为需要发送营销短信, 短信内发送的链接需要是短链接
 
 ### 2.踩坑记录
 
