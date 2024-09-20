@@ -69,25 +69,50 @@ npm install dotenv
 
 ```
 
-2. 创建 .env 文件
+2. 创建 .env.local 文件
 
 ```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=password
+DB_HOST=localhost:local
+DB_USER=root:local
+DB_PASS=password:local
 
 ```
 
-3. 在代码中加载环境变量
+3. 创建 .env.prod 文件
+
+```env
+DB_HOST=localhost:prod
+DB_USER=root:prod
+DB_PASS=password:prod
+
+```
+
+4. 在代码中加载环境变量
 
 ```js
-require('dotenv').config();
+const dotenv = require('dotenv');
 
+// 根据 NODE_ENV 变量选择文件
+const envFile =
+  process.env.NODE_ENV === 'production' ? '.env.prod' : '.env.local';
+dotenv.config({ path: envFile });
+
+// 现在可以访问环境变量
 const dbHost = process.env.DB_HOST;
-console.log(dbHost); // 输出: localhost
+console.log(`Database Host: ${dbHost}`);
 ```
 
-### 四: node-env
+5. package.json 中 script 脚本
+
+```js
+"scripts": {
+  "clone:all": "bash ./scripts/clone-all.sh",
+  "dev:prod": "NODE_ENV=production node index.js",
+  "dev:local": "NODE_ENV=development node index.js"
+},
+```
+
+### 四: node-dev
 
 说明：node-dev 是一个用于 Node.js 应用程序的开发工具，它可以自动监视文件变化并重新启动应用，从而提升开发效率。
 
