@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: '慢慢走',
+  title: '说书人',
   mode: 'doc',
   exportStatic: {},
   logo: 'https://s2.loli.net/2023/02/24/BLxk6PRgm3JKDhu.png',
